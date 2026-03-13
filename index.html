@@ -1,13 +1,118 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Turavia</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turavia - авіаквитки для турагентств</title>
+  <meta name="description" content="Продаж авіаквитків для туристичних агентств - NDC, low-cost, GDS під запит." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Turavia</h1>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="logo.png" alt="Turavia logo" />
+      </div>
+
+      <nav class="nav">
+        <a href="#about">Про нас</a>
+        <a href="#services">Послуги</a>
+        <a href="#airlines">Авіакомпанії</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="hero-bg.png" alt="Літак у небі" />
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>В2В продаж авіаквитків для турагентств</h1>
+        <p>
+          NDC, low-cost та бронювання під запит через GDS
+        </p>
+        <a href="#contacts" class="btn">Залишити заявку</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2>Про нас</h2>
+      <p class="section-text">
+        Turavia - сервіс для туристичних агентств з фокусом на продаж авіаквитків,
+        NDC-контент, low-cost перевізників та обробку запитів через GDS.
+      </p>
+    </div>
+  </section>
+
+  <section class="section light" id="services">
+    <div class="container">
+      <h2>Послуги</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>NDC-контент</h3>
+          <p>Підбір та оформлення авіаквитків через NDC-канали провідних авіакомпаній.</p>
+        </div>
+
+        <div class="card">
+          <h3>Low-cost</h3>
+          <p>Робота з популярними лоукост-перевізниками для агентського сегмента.</p>
+        </div>
+
+        <div class="card">
+          <h3>GDS під запит</h3>
+          <p>Опрацювання складних маршрутів, тарифів та індивідуальних бронювань через GDS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="airlines">
+    <div class="container">
+      <h2>Основні напрямки роботи</h2>
+
+      <div class="tags">
+        <span>Turkish Airlines NDC</span>
+        <span>Lufthansa Group</span>
+        <span>Air France</span>
+        <span>KLM</span>
+        <span>TAP Portugal</span>
+        <span>Emirates</span>
+        <span>Qatar Airways</span>
+        <span>United</span>
+        <span>Ryanair</span>
+        <span>Wizz Air</span>
+        <span>EasyJet</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section light" id="contacts">
+    <div class="container">
+      <h2>Контакти</h2>
+      <p class="section-text">
+        Залиште заявку для підключення або співпраці.
+      </p>
+
+      <div class="contact-box">
+        <p>Email: your@email.com</p>
+        <p>Telegram: @yourtelegram</p>
+        <p>Телефон: +38 XXX XXX XX XX</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© Turavia. Усі права захищені.</p>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
